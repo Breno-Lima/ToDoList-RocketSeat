@@ -1,0 +1,24 @@
+.input{
+    display: flex;
+    margin-top: -25px;
+    margin-right: 150px;
+    position: absolute;
+    width: 500px;
+    border-radius: 5px;
+    height: 35px;
+    border: black;
+    background: var(--gray-500);
+}
+.input::placeholder{
+    padding: 10px;
+    color: var(--gray-300);
+}
+.input:focus-within{
+    outline-color:var(--gray-500);
+    color: white;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+}
